@@ -10,6 +10,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DevelopersService } from './developers.service';
 import { DevelopersItemComponent } from './developers-list/developers-item/developers-item.component';
+import { DevelopersRoutingModule } from './developers-routing.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -23,10 +25,13 @@ import { DevelopersItemComponent } from './developers-list/developers-item/devel
       DevelopersItemComponent
   ],
   imports: [
-      CommonModule,
-      FormsModule,
-      ReactiveFormsModule,
-      BrowserModule,
+    CommonModule,
+    FormsModule,
+    NgbModule,
+    ReactiveFormsModule,
+    DevelopersRoutingModule
+
+      
    
 
   ],

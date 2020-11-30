@@ -1,0 +1,82 @@
+<!--<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a
+        class="navbar-brand"
+        routerLink="dashboard"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Gamewebsite</a
+      >
+      <button
+        class="navbar-toggler hidden-sm-up"
+        type="button"
+       <!--</button> (click)="isNavbarCollapsed = !isNavbarCollapsed" 
+        data-target="#navbarsDefault"
+        aria-controls="navbarsDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      > -->
+       <!--- <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div
+        [ngbCollapse]="isNavbarCollapsed"
+        class="collapse navbar-collapse"
+        id="navbarsDefault"
+      >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              routerLink="movies/list"
+              [routerLinkActive]="['active']"
+              >Movies</a
+            >
+          </li>
+  
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              routerLink="halls/list"
+              [routerLinkActive]="['active']"
+              [routerLinkActiveOptions]="{ exact: true }"
+              >Halls</a
+            >
+          </li>
+  
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              routerLink="moviescreening/list"
+              [routerLinkActive]="['active']"
+              [routerLinkActiveOptions]="{ exact: true }"
+              >Moviescreening</a
+            >
+          </li>
+  
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              routerLink="about"
+              [routerLinkActive]="['active']"
+              [routerLinkActiveOptions]="{ exact: true }"
+              >About</a
+            >
+          </li>
+        </ul>
+  
+        <ul class="navbar-nav">
+          <li *ngIf="(isLoggedIn$ | async) === false" class="nav-item">
+            <a class="nav-link" routerLink="/login">Sign in</a>
+          </li>
+          <li *ngIf="(isLoggedIn$ | async) === false" class="nav-item">
+            <a class="nav-link" routerLink="/register">Sign up</a>
+          </li>
+          <li *ngIf="(isLoggedIn$ | async) === true" class="nav-item">
+            <a class="nav-link" (click)="(onLogout())" routerLink="">Log Out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+-->
